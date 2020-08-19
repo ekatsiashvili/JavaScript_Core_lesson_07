@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lesson 07</title>
+<script src='client.js'></script>
+<style>
+#message {
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 16px;
+	color: green;
+}
+
+.external-red {
+	background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+	<ul class='text'>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<br>
+
+	<ul class='text'>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<br>
+
+	<ul class='text'>
+		<li></li>
+	</ul>
+
+	<button onclick='fillLiWithText()'>fill all LI with text</button>
+	<div id='message'></div>
+
+	<br>
+
+	<a name="list">LIST</a>
+	<ul>
+		<li><a href="http://google.com">http://google.com</a></li>
+		<li><a href="/tutorial">/tutorial.html</a></li>
+		<li><a href="local/path">local/path</a></li>
+		<li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+		<li><a href="http://nodejs.org">http://nodejs.org</a></li>
+		<li><a href="http://internal.com/test">http://internal.com/test</a></li>
+	</ul>
+
+	<button onclick='changeToRed()'>change color external link</button>
+
+</body>
+</html>
